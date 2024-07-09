@@ -22,15 +22,16 @@ export default function RootLayout({
         <div className="relative z-20">
           <SiteHeader />
         </div>
-        <div className="absolute top-0 left-0 flex flex-col h-screen w-screen z-10">
+        <div className="fixed top-0 left-0 h-screen w-screen z-10">
           <div className="w-full h-full blur-lg">
             <video autoPlay loop muted className="w-full h-full object-cover">
-              <source src="/bg.webm"/>
+              <source src="/bg.webm" />
             </video>
           </div>
         </div>
-
-        {children}
+        <div className="relative z-30">
+          {children}
+        </div>
       </body>
     </html>
   );
