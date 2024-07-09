@@ -9,7 +9,7 @@ export default function Home() {
         <ul>
           <li>- Reddit - u/Loomeh</li>
           <li>- Discord - Loomeh</li>
-          <li>- Email - loomeh@proton.me</li>
+          <li>- Email - loomeh@beatrevival.me</li>
         </ul>
         <br/>
         <strong>Do not contact Loomeh for general support questions. Please ask for
