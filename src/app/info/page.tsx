@@ -5,7 +5,7 @@ export default function Home() {
         <BeatRevivalLayout>
             <p>
                 <strong>Q: When is the project coming out?<br/></strong>
-                A: We have no set release date but we&apos;re predicting a late 2024 release. 
+                A: We have no set release date but we&apos;re predicting a late 2025 release. This date is&apos;t final and the site will be appropriately updated when we&apos;re done.
             </p>
             <br/>
             <p>
