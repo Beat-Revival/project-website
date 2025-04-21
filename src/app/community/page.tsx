@@ -1,10 +1,9 @@
-import BeatRevivalLayout from "../components/BeatRevivalLayout";
 import { Button } from "@/components/ui/button";
 import Image from 'next/image';
 
-export default function Home() {
+export default function Community() {
   return (
-    <BeatRevivalLayout>
+    <div>
       <div className="text-xl">
         Here are the places you can chat with the developers and other members of the community.
       </div>
@@ -17,12 +16,12 @@ export default function Home() {
         </Button>
         </a>
         &nbsp;&nbsp;
-        <a href="https://twitter.com/BeatRevivalMEC">
+        <a href="https://bsky.app/profile/beatrevival.me">
         <Button className="bg-[#1DA1F2]">
-        <Image src="/x.svg" alt="Twitter" width={32} height={32}/>&nbsp;&nbsp;&nbsp;Twitter
+        <Image src="/Bluesky.svg" alt="Bluesky" width={32} height={32}/>&nbsp;&nbsp;&nbsp;Bluesky
         </Button>
         </a>
       </div>
-    </BeatRevivalLayout>
+    </div>
   );
 }
