@@ -1,4 +1,8 @@
-function getServerKillDate() {
+"use client";
+
+import { useState, useEffect } from 'react';
+
+function getServerKillDate(): number {
   const now = new Date().getTime();
   const killDate = new Date('2023-12-08T21:48:00Z').getTime();
 
@@ -7,8 +11,13 @@ function getServerKillDate() {
   return Math.floor(differenceInMilliseconds / 86400000);
 }
 
+export default function Home(): JSX.Element {
+  const [daysAgo, setDaysAgo] = useState<number | string>('...');
 
-export default function Home() {
+  useEffect(() => {
+    setDaysAgo(getServerKillDate());
+  }, []);
+
   return (
     <section className="py-8 px-4">
       <div>
@@ -27,7 +36,8 @@ export default function Home() {
           can join our Discord.
         </p>
         <p>
-          The servers for Mirror&apos;s Edge Catalyst were shut down <strong>{getServerKillDate()} days ago.</strong>
+          The servers for Mirror&apos;s Edge Catalyst were shut down{' '}
+          <strong>{daysAgo} days ago.</strong>
         </p>
       </div>
     </section>
