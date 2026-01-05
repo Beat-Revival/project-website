@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <section className="px-4 py-8">
-      <div className="mx-auto max-w-2xl">
+      <div>
         <h1 className="mb-4 text-2xl font-bold">Join our team</h1>
 
         <p className="mb-4">
