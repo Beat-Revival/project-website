@@ -34,7 +34,7 @@ export default function Home() {
           We&lsquo;re currently looking for developers to help us with the project. If you are any of these:<br/>
 
           - Knowledgeable in reverse engineering binary file formats<br/>
-          - A JavaScript/TypeScript backend developer<br/><br/>
+          - Proficient in the Rust programming language<br/><br/>
 
           and are interested in joining our team, either send Loomeh or Meteor (CodeNameMeteor) a private message on Discord or send Loomeh an email (look at the Contact Us tab).<br/><br/>
 
