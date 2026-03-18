@@ -7,7 +7,7 @@ export default function Info() {
                 </p>
                 <p>
                     <strong>Q: When is the project coming out?<br/></strong>
-                    A: We have no set release date but we&apos;re predicting a late 2025 release. This date isn&apos;t final and the site will be appropriately updated when we&apos;re done.
+                    A: :)
                 </p>
                 <br/>
                 <p>
