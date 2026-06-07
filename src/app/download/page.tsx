@@ -14,7 +14,7 @@ export default function DownloadPage() {
           <div className="flex flex-1 flex-col items-center gap-4 text-center">
             <Image src="/windows.svg" alt="Windows logo" className="h-24 w-24" width={512} height={512} />
             <a
-              href="https://v3mb4p5cgonobgfy.public.blob.vercel-storage.com/BeatLink.zip?download=1"
+              href="https://downloads.beatrevival.me/BeatLink.zip"
               className="inline-flex items-center justify-center rounded-lg bg-[#0078d4] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#005ba1] rounded-bl-none rounded-tr-none"
             >
               Download (BeatLink)
@@ -35,7 +35,7 @@ export default function DownloadPage() {
           <div className="flex flex-1 flex-col items-center gap-4 text-center">
             <Image src="/Tux.svg" alt="Tux logo" className="h-24 w-auto" width={414} height={480} />
             <a
-              href="https://v3mb4p5cgonobgfy.public.blob.vercel-storage.com/beatlink-cli.zip?download=1"
+              href="https://downloads.beatrevival.me/beatlink-cli.zip"
               className="inline-flex items-center justify-center rounded-lg bg-[#ff921e] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#d67a18] rounded-bl-none rounded-tr-none"
             >
               Download (beatlink-cli)
