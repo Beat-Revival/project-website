@@ -43,7 +43,7 @@ export default function DownloadPage() {
             <div className="w-full max-w-md rounded-md border border-gray-300 bg-gray-50 px-3 py-2 text-left rounded-bl-none rounded-tr-none">
               <p className="text-[14px] font-semibold uppercase tracking-wide text-gray-500">SHA256</p>
               <code className="mt-1 block select-all break-all font-mono text-[10px] text-gray-700">
-                707dcd379292b55bc8ae8c66b397be8a011ae411ecf20b79376ef3ab7034b33d
+                37d67d5b7957934b1e99a7bb6e69d87e15accadb550c666fe08e08eb9493a269
               </code>
             </div>
           </div>
