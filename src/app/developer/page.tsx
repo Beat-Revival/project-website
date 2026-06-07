@@ -4,6 +4,15 @@ export default function Home() {
   return (
     <section className="px-4 py-8">
       <div>
+        <h1 className="mb-4 text-2xl font-bold">Contribute</h1>
+        <p className="mb-4">
+          Submit pull requests to any repositories on the <Link href="https://github.com/grid-leak" className="text-red-500 hover:text-red-700 underline" target="_blank" rel="noopener noreferrer">gridLeak</Link> GitHub org to contribute to the project.
+        </p>
+      </div>
+
+      <br/><br/>
+
+      <div>
         <h1 className="mb-4 text-2xl font-bold">Join our team</h1>
 
         <p className="mb-4">
@@ -13,8 +22,6 @@ export default function Home() {
 
         <ul className="mb-4 list-disc space-y-2 pl-5">
           <li>Proficient in the Rust programming language</li>
-          <li>Knowledgeable in reverse engineering proprietary binary file formats</li>
-          <li>Knowledgeable in reverse engineering x86/x64 machine code</li>
         </ul>
 
         <p className="mb-4">

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 function getServerKillDate(): number {
@@ -31,9 +32,7 @@ export default function Home(): JSX.Element {
           software.
         </p>
         <p className="mb-8">
-          This project is still in development and isn&apos;t ready just yet but if you
-          would like to keep up-to-date with the project&apos;s development then you
-          can join our Discord.
+          <strong>We&apos;re now in Open Beta!</strong> Check the <Link href="/download" className="text-red-500 hover:text-red-700 underline">download page</Link> to join in!
         </p>
         <p>
           The servers for Mirror&apos;s Edge Catalyst were shut down{' '}

@@ -6,7 +6,8 @@ import { mainNavLinks } from './navLinks';
 export default function MainNav() {
   const textColor = "text-black";
   const hoverBgColor = "hover:bg-[#fd1111]";
-  const buttonClassName = `hover:text-white ${hoverBgColor} ${textColor}`;
+  const cornerShape = "rounded-bl-none rounded-tr-none";
+  const buttonClassName = `hover:text-white ${hoverBgColor} ${cornerShape} ${textColor}`;
 
 
   return (

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Info() {
     return(
         <section className="py-8 px-4">
@@ -6,8 +8,13 @@ export default function Info() {
                     <strong>FAQ</strong>
                 </p>
                 <p>
+                    <strong>Q: How do I participate in the open beta?<br/></strong>
+                    A: Download the launcher from the launcher from the <Link href="/download" className="text-red-500 hover:text-red-700 underline">download page</Link> and link your Discord account when asked. That&apos;s it!
+                </p>
+                <br/>
+                <p>
                     <strong>Q: When is the project coming out?<br/></strong>
-                    A: :)
+                    A: The project is currently in open beta. We don&apos;t have a specific date for the full release yet.
                 </p>
                 <br/>
                 <p>
@@ -22,7 +29,7 @@ export default function Info() {
                 <br/>
                 <p>
                     <strong>Q: What features of Social Play will be supported?<br/></strong>
-                    A: We plan to eventually support everything (excluding Companion App).
+                    A: We plan to eventually support everything.
                 </p>
                 <br/>
                 <p>
@@ -32,7 +39,7 @@ export default function Info() {
                 <br/>
                 <p>
                     <strong>Q: Will the project be open-sourced?<br/></strong>
-                    A: We&apos;re currently planning on open-sourcing most of the project&apos;s components with a permissive license upon launch. However, this is subject to change. 
+                    A: Most of the project's components are already open-source on the <Link href="https://github.com/grid-leak" className="text-red-500 hover:text-red-700 underline" target="_blank" rel="noopener noreferrer">gridLeak</Link> GitHub org.
                 </p>
                 <br/>
                 <p>
