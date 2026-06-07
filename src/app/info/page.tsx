@@ -39,7 +39,7 @@ export default function Info() {
                 <br/>
                 <p>
                     <strong>Q: Will the project be open-sourced?<br/></strong>
-                    A: Most of the project's components are already open-source on the <Link href="https://github.com/grid-leak" className="text-red-500 hover:text-red-700 underline" target="_blank" rel="noopener noreferrer">gridLeak</Link> GitHub org.
+                    A: Most of the project&apos;s components are already open-source on the <Link href="https://github.com/grid-leak" className="text-red-500 hover:text-red-700 underline" target="_blank" rel="noopener noreferrer">gridLeak</Link> GitHub org.
                 </p>
                 <br/>
                 <p>
