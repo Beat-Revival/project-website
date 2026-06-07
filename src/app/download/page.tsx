@@ -36,7 +36,7 @@ export default function DownloadPage() {
             <Image src="/Tux.svg" alt="Tux logo" className="h-24 w-auto" width={414} height={480} />
             <a
               href="https://v3mb4p5cgonobgfy.public.blob.vercel-storage.com/beatlink-cli.zip?download=1"
-              className="inline-flex items-center justify-center rounded-lg bg-gray-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#d67a18] bg-[#ff921e] rounded-bl-none rounded-tr-none"
+              className="inline-flex items-center justify-center rounded-lg bg-[#ff921e] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#d67a18] rounded-bl-none rounded-tr-none"
             >
               Download (beatlink-cli)
             </a>
